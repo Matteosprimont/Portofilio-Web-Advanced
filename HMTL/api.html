@@ -5,7 +5,15 @@
     <title>Title</title>
 </head>
 <body>
-<h1>api</h1>
+<h1>API</h1>
+<form id="weerForm">
+    <input type="text" id="stad" placeholder="geef een naam van een stad">
+    <button type="submit">Weather</button>
+</form>
 
+<div id="error-message" style="display: none;">Vul een stadnaam in.</div>
+<div id="weer"></div>
+
+<script src="/JS/Api.js"></script>
 </body>
 </html>
