@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#weer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#weerForm {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#weer h2, #weer p {
+    text-align: center;
+}
