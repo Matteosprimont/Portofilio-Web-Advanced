@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpapers.com/images/hd/mountain-aesthetic-3pbvwsg3h7ksq2li.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+img {
+    max-width: 40%;
+    height: auto;
+    padding: 10px;
+}
+.naam{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.naam input {
+    flex-grow: 1;
+}
+.naam label{
+    display: block;
+    margin-bottom: 10px;
+}
+.naam input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.naam button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.naam button:hover {
+    background-color: lightblue;
+}
+#namenlijst li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 10px;
+}
+#namenlijst li .naam {
+    flex-grow: 1;
+    font-size: 20px;
+
+}
+#namenlijst li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+#namenlijst li .verwijder {
+    background-color: red;
+    color: white;
+}
+#namenlijst li .toevoegen {
+    background-color: green;
+    color: white;
+}
+#namenlijst li .verwijderen {
+    background-color: orange;
+    color: white;
+}
+#namenlijst li .punten {
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 5px;
+}
