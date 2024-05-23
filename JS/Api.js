@@ -13,6 +13,10 @@ function weergave(weer){
     const luchtvocht = document.createElement("p");
     luchtvocht.textContent = `Luchtvochtigheid: ${humidity}%`;
     resultaat.appendChild(luchtvocht);
+
+    const weerIcoon = document.createElement("img");
+    weerIcoon.src = `http://openweathermap.org/img/w/${icon}.png`;
+    resultaat.appendChild(weerIcoon);
 }
 
 async function fetchWeer(stad){
@@ -31,8 +35,10 @@ async function fetchWeer(stad){
         e.preventDefault();
         const stad = document.getElementById('stad').value;
         if(!stad.trim()){
+            document.getElementById('error-message').style.display = 'block';
             document.getElementById('weer').style.display = 'none';
         } else {
+            document.getElementById('error-message').style.display = 'none';
             fetchWeer(stad);
         }
     });

@@ -24,3 +24,23 @@
 #weer h2, #weer p {
     text-align: center;
 }
+
+#weer, #error-message {
+    margin: 20px auto;
+}
+#weer img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+#error-message {
+    color: red;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+}
