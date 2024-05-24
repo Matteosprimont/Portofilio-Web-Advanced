@@ -44,3 +44,16 @@
     text-align: center;
     width: 50%;
 }
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+h1 {
+    animation: slideInFromRight 1s ease-out;
+}
