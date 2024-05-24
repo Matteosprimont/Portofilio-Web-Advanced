@@ -21,6 +21,14 @@ function checkWinnaar() {
     });
 }
 
+function updateSpeler(spelerNaam, puntenVerschil) {
+    namen = namen.map(speler =>
+        speler.naam === spelerNaam ? { ...speler, punten: speler.punten + puntenVerschil } : speler
+    );
+    toonNamen();
+    checkWinnaar();
+}
+
 function toonNamen(){
     namenLijst.innerHTML = '';
     namen.forEach((speler, index) => {
@@ -37,14 +45,10 @@ function toonNamen(){
             toonNamen();
         });
         li.querySelector('.toevoegen').addEventListener('click', () => {
-            speler.punten++;
-            toonNamen();
-            checkWinnaar();
+            updateSpeler(speler.naam, 1);
         });
         li.querySelector('.verwijderen').addEventListener('click', () => {
-            speler.punten--;
-            toonNamen();
-            checkWinnaar();
+            updateSpeler(speler.naam, -1);
         });
         namenLijst.appendChild(li);
     });
