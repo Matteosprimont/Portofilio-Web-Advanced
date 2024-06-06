@@ -31,36 +31,36 @@ Here is the list of required items in the project:
 ## Requirements inside my project
 
 Elementen selecteren:
-> Doorheen mijn project selecteer ik elementen met behulp van querySelector en getElementById.
+>Dit kom doorheen heel mijn project voor maar Het eerste element dat ik selecteer is de button die de score verhoogt en verlaagt.
 >
-> Het eerste element dat ik selecteer is de button die de score verhoogt en verlaagt.
+> img src="img/element%20selecteren.png" alt="image"
 > 
-> <img src="img/1.png" alt="image">
 
 Elementen manipuleren:
 > Ik manipuleer elementen door de innerHTML van een element te veranderen.
 >
 > In mijn project verander ik de innerHTML van de score van de spelers.
+>
 > 
-><img src="img/2.png" alt="image">
 
 Event aan een element koppelen:
 > Ik koppel een event aan een element door een eventListener toe te voegen.
 >
 > In mijn project voeg ik een eventListener toe aan de buttons die de score verhogen en verlagen.
 >
-><img src="img/3.png" alt="image">
+> 
 
 Formulier valideren:
 > Ik valideer een formulier door te controleren of de input van de gebruiker correct is.
 >
-> In mijn project valideer ik of de input van de gebruiker een nummer is.
->
->
+> 
 
-Gebruiken van een constante:
-> Ik gebruik een constante om een waarde op te slaan die niet verandert.
-> 
-> In mijn project gebruik ik een constante om de score van de spelers op te slaan.
-> 
-> 
+
+## Bronvermeldingen
+
+> Ik moest icon krijgen van de api en ik heb hiervoor gebruik moeten maken van coplilot
+>
+> <img src="img/github%20icon.png" alt="image">
+>
+> <img src="img/github%20icon%202.png" alt="image">
+
