@@ -131,8 +131,22 @@ Hier is de lijst van de vereiste items in het project:
 
 ## Bronvermeldingen
 
-> Ik moest icon krijgen van de API en ik heb hiervoor gebruik moeten maken van Copilot
+> problemen met het weergeven van de icons van de api
 >
-> <img src="img/github%20icon.png" alt="image" width="800">
+> <img src="img/icon.png" alt="image" width="800">
 >
-> <img src="img/github%20icon%202.png" alt="image" width="800">
+> > <img src="img/icon2.png" alt="image" width="800">
+
+
+
+> problemen met de de witruimte na invoer
+> 
+> <img src="img/chat2.png" alt="image" width="600">
+
+>Hoe een nieuwe pagina openen via js
+> 
+> <img src="img/chatgpt1.png" alt="image" width="600">
+
+> Gebruikte API
+> 
+> https://openweathermap.org/api
