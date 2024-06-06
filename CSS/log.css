@@ -1,46 +1,53 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://wallpapers.com/images/hd/mountain-aesthetic-3pbvwsg3h7ksq2li.jpg);
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?w=1480&t=st=1717711612~exp=1717712212~hmac=fb4a1084f635a11a748ece6f5c00b2a4a060837dfcd89e56f4ea2e1980d382a0);
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: black;
 }
 
 form{
     background-color: white;
-    padding: 60px;
+    padding: 40px;
     border-radius: 8px;
     max-width: 400px;
-    margin: 20px auto;
+    margin: 20px;
+    box-shadow: 0 4px 8px dimgray;
 }
 
 #gebruikersnaam, #wachtwoord, #email,#wachtwoord2{
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid gainsboro;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 
 #button{
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border-radius: 5px;
     border: none;
     color: white;
     background-color: dodgerblue;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-size: 16px;
 }
 
 #button:hover{
     background-color: blue;
 }
 
-label{
-    margin-bottom: 5px;
+label {
+    margin-bottom: 8px;
     display: block;
     color: black;
+    font-size: 14px;
 }

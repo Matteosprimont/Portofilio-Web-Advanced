@@ -9,10 +9,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 20px;
     width: 300px;
-    margin: 0 auto;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px black;
+    border-radius: 10px;
 }
 
 #weerForm {
@@ -34,26 +37,38 @@
     margin: 0 auto;
     display: block;
 }
+body{
+    background-image: url("https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?w=1480&t=st=1717711612~exp=1717712212~hmac=fb4a1084f635a11a748ece6f5c00b2a4a060837dfcd89e56f4ea2e1980d382a0");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: black;
+}
 
 #error-message {
     color: red;
-    background-color: white;
+    background-color: pink;
     padding: 10px;
     border: 2px solid red;
     border-radius: 5px;
     text-align: center;
     width: 50%;
+    margin: 20px auto;
 }
 
 @keyframes slideInFromRight {
     from {
         transform: translateX(100%);
+        opacity: 0;
     }
     to {
         transform: translateX(0);
+        opacity: 1;
     }
 }
 
 h1 {
     animation: slideInFromRight 1s ease-out;
+    color: dodgerblue;
+    margin-bottom: 20px;
+    text-align: center;
 }
